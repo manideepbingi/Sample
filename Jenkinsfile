@@ -3,7 +3,7 @@ agent any
 stages{
 stage('clone'){
 steps
-git ''
+git 'https://github.com/manideepbingi/Sample.git/'
 }
 }
 stage('Build'){
