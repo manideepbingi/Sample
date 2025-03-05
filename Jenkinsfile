@@ -6,7 +6,7 @@ steps
 git ''
 }
 }
-stage('Build){
+stage('Build'){
 steps{
 echo 'Building the project...'
 sh 'javac HelloWorld.java'
