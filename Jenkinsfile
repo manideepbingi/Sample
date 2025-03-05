@@ -6,7 +6,7 @@ pipeline {
 stage('clone') {  // Stage for building your project
             steps {
                 // echo 'Building the project...'
-                git 'https://github.com/22P61A0533/gesture-hci.git/'
+                git 'https://github.com/manideepbingi/Sample.git/'
                 // Add build commands here (e.g., mvn, npm, etc.)
             }
         }
